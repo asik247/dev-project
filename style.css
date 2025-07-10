@@ -142,9 +142,11 @@ word-spacing:0px;
     /* height: 400px; */
 }
 .aboutChild{
-    border: 1px solid black;
+    /* border: 1px solid gray; */
     width:420px;
-   margin:auto auto;
+    height: 260px;
+   margin:-50px auto;
+   /* padding-top: -50px; */
    text-align: center;
    background-color: whitesmoke;
    font-size:14px;
@@ -153,12 +155,16 @@ word-spacing:0px;
 }
 .aboutChild h3{
     margin: 10px 0;
+    padding:10px 0;
     text-transform: capitalize;
+    /* padding: 10px 0; */
+    font-size: 18px;
 }
 .aboutChild p{
 margin-bottom: 30px;
 margin:10px 20px;
-text-transform: capitalize;
+
+text-transform:lowercase;
 
 }
 .aboutUs{
@@ -168,7 +174,8 @@ text-transform: capitalize;
    justify-content: space-between;
    align-items: center;
    /* margin: 0 20px; */
-   margin-top: 30px;
+   margin-top:40px;
+
    padding: 0 20px;
    
 }
@@ -181,4 +188,54 @@ text-transform: capitalize;
 }
 .name{
     display: block;
+}
+/* card code start here */
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 100px;
+}
+.cardChild{
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 200px;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 50px rgb(209, 207, 204);
+}
+.cardChild img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 0;
+
+}
+.cardChild h6{
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.cardChild p{
+    font-size: 12px;
+    /* text-align: justify; */
+    /* border: 1px solid red; */
+    /* height: 80px; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+.sometitle{
+    text-align: center;
+    text-transform: capitalize;
+    /* border: 1px solid black; */
+    width: 500px;
+    margin: 0 auto;
+}
+.sometitle h1{
+    margin: 10px 0;
+}
+.sometitle p{
+    margin: 10px 0;
+    font-size: 12px;
 }
